@@ -1,7 +1,7 @@
 <script setup>
 import { useChatStore } from '@/stores/chat'
-import Avatar from '@/components/ui/Avatar.vue'
-import Badge from '@/components/ui/Badge.vue'
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
+import { Badge } from '@/components/ui/badge'
 import { Phone, Video, MoreHorizontal, FileText, Image } from 'lucide-vue-next'
 
 const chat = useChatStore()

@@ -2,9 +2,9 @@
 import { ref, computed } from 'vue'
 import { useChatStore } from '@/stores/chat'
 import { useAuthStore } from '@/stores/auth'
-import Avatar from '@/components/ui/Avatar.vue'
-import Badge  from '@/components/ui/Badge.vue'
-import Button from '@/components/ui/Button.vue'
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 import { Search, Plus } from 'lucide-vue-next'
 
 const chat = useChatStore()
